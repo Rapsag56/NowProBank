@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="quantidade_de_parcelas" table="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>quantidade_de_parcelas</element>
+            <name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 01:18:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>quantidade_de_parcelas</sys_name>
+            <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+            <sys_update_name>sys_choice_x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank_quantidade_de_parcelas</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 01:18:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12x</label>
+            <language>en</language>
+            <name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 01:18:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 01:18:37</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>24x</label>
+            <language>en</language>
+            <name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 01:18:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 01:18:38</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>quantidade_de_parcelas</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>48x</label>
+            <language>en</language>
+            <name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-11 01:18:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-11 01:18:38</sys_updated_on>
+            <value>48</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

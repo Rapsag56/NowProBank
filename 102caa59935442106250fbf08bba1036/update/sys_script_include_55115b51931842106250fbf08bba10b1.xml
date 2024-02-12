@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1312151_nowpro_1.utilidadesNowProBank</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>utilidadesNowProBank</name>
+        <script><![CDATA[var utilidadesNowProBank = Class.create();
+utilidadesNowProBank.prototype = {
+    initialize: function(nome, number, valor, quantidade) {
+        this.nome = nome;
+        this.number = number;
+        this.valor = valor;
+        this.quantidade = quantidade;
+    },
+    
+
+    insertRecord: function(nome, number, valor, quantidade) {
+        var gr = new GlideRecord('x_1312151_nowpro_1_auditoria_de_creditos_aprovados');
+        gr.initialize();
+        gr.query();
+        if (gr.next()) {
+            gr.setValue('solitacacao_de_credito', this.number);
+            gr.setValue('nome', this.nome);
+            gr.setValue('quantidade_de_parcelas', this.quantidade);
+            gr.setValue('valor_do_credito', this.valor);
+            gr.insert();
+
+        }
+    }(nome, number, valor, quantidade),
+
+    type: 'utilidadesNowProBank'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 03:20:06</sys_created_on>
+        <sys_id>55115b51931842106250fbf08bba10b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>utilidadesNowProBank</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_update_name>sys_script_include_55115b51931842106250fbf08bba10b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 04:19:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

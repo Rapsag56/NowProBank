@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Solicitar Crédito">7f037251939442106250fbf08bba10a5</sc_cat_item>
+        <sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 01:05:11</sys_created_on>
+        <sys_id>eba47e91939442106250fbf08bba1017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Solicitar Crédito</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_update_name>sc_cat_item_category_eba47e91939442106250fbf08bba1017</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 01:05:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowPro Bank">102caa59935442106250fbf08bba1036</application>
+        <file_path/>
+        <instance_id>7d19e08edbe2f99c39639027c5961989</instance_id>
+        <instance_name>dev215234</instance_name>
+        <name>sc_cat_item_category_eba47e91939442106250fbf08bba1017</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitar Crédito">7f037251939442106250fbf08bba10a5</sc_cat_item><sc_category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-11 01:05:11</sys_created_on><sys_id>eba47e91939442106250fbf08bba1017</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departmental Services.Solicitar Crédito</sys_name><sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package><sys_policy/><sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope><sys_update_name>sc_cat_item_category_eba47e91939442106250fbf08bba1017</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-11 01:05:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-74094132</payload_hash>
+        <record_name>Departmental Services.Solicitar Crédito</record_name>
+        <reverted_from/>
+        <source>d42caa59935442106250fbf08bba1045</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 01:05:11</sys_created_on>
+        <sys_id>6ba47e91939442106250fbf08bba101b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d95b25fbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 01:05:11</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>eba47e91fe9442107fd69dd2633d921a</update_guid>
+        <update_guid_history>eba47e91fe9442107fd69dd2633d921a:-74094132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Departmental Services.Solicitar Crédito">78f4b2d1939442106250fbf08bba103b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-11 01:06:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0cb05e07f7e849a88a2edfac5c13aa90</sys_id>
+        <sys_metadata>eba47e91939442106250fbf08bba1017</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departmental Services.Solicitar Crédito</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_scope_delete display_value="">059b30127ef34da69121b9f3c4e700a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_eba47e91939442106250fbf08bba1017</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_eba47e91939442106250fbf08bba1017">6ba47e91939442106250fbf08bba101b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 01:06:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
