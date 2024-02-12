@@ -10,7 +10,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>fluxo_de_solicitao_de_crdito</internal_name>
-        <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1 - Get Catalog Variables➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"12x","image":"","reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"used":false,"label":"24x","image":"","reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"used":false,"label":"48x","image":"","reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.name","label":"1➛nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"12x","used":false,"reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"24x","used":false,"reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"48x","used":false,"reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
         <master_snapshot>81e743d593d442106250fbf08bba107f</master_snapshot>
         <name>Fluxo de solicitação de crédito</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fbb1835193d442106250fbf08bba1046</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Fluxo de solicitação de crédito</sys_name>
         <sys_overrides/>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name>sys_hub_flow_fbb1835193d442106250fbf08bba1046</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:07</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fbb1835193d442106250fbf08bba1046"/>
@@ -74,14 +74,14 @@
         <identifier>fbb1835193d442106250fbf08bba1046</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-11 03:43:06</sys_created_on>
-        <sys_id>fcd89759931842106250fbf08bba1047</sys_id>
+        <sys_created_on>2024-02-12 18:29:25</sys_created_on>
+        <sys_id>394d2731931402106250fbf08bba1099</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:25</sys_updated_on>
         <trigger display_value="">b1e783d593d442106250fbf08bba10ed</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fbb1835193d442106250fbf08bba1046^sys_idNOT INfcd89759931842106250fbf08bba1047"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fbb1835193d442106250fbf08bba1046^sys_idNOT IN394d2731931402106250fbf08bba1099"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046^sys_idNOT IN30f2479193d442106250fbf08bba107f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:07:33</sys_created_on>
         <sys_id>30f2479193d442106250fbf08bba107f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:07:32</sys_created_on>
         <sys_id>70f2479193d442106250fbf08bba1076</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:07:33</sys_created_on>
         <sys_id>78f2479193d442106250fbf08bba107a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -313,7 +313,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=fbb1835193d442106250fbf08bba1046"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fbb1835193d442106250fbf08bba1046"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046^sys_idNOT IN1ed78f9593d442106250fbf08bba10f9,2316075593d442106250fbf08bba10d3,2316075593d442106250fbf08bba10db,28c85359931842106250fbf08bba1001,85f2479193d442106250fbf08bba1085,96d7cf9593d442106250fbf08bba101b,96d7cf9593d442106250fbf08bba1023,a716075593d442106250fbf08bba10e3,d2d7cf9593d442106250fbf08bba100e,e316075593d442106250fbf08bba10c6,e716075593d442106250fbf08bba10bd,ef16075593d442106250fbf08bba10b4"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046^sys_idNOT IN1ed78f9593d442106250fbf08bba10f9,2316075593d442106250fbf08bba10d3,2316075593d442106250fbf08bba10db,28c85359931842106250fbf08bba1001,85f2479193d442106250fbf08bba1085,9437aff593d002106250fbf08bba10f6,96d7cf9593d442106250fbf08bba101b,96d7cf9593d442106250fbf08bba1023,a716075593d442106250fbf08bba10e3,d2d7cf9593d442106250fbf08bba100e,e316075593d442106250fbf08bba10c6,e716075593d442106250fbf08bba10bd,ef16075593d442106250fbf08bba10b4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -322,16 +322,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>1ed78f9593d442106250fbf08bba10f9</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>3077e2f6-c881-4ee3-b6d8-efc41c9f4a6a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ed78f9593d442106250fbf08bba10f9"/>
@@ -410,16 +410,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:23</sys_created_on>
         <sys_id>2316075593d442106250fbf08bba10d3</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>401ef4e0-c617-4860-85c7-2396e051adc7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2316075593d442106250fbf08bba10d3"/>
@@ -498,16 +498,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:23</sys_created_on>
         <sys_id>2316075593d442106250fbf08bba10db</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>f3ad3bec-8f5b-4b29-b6ad-fca593a16140</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2316075593d442106250fbf08bba10db"/>
@@ -624,16 +624,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>11</order>
+        <order>12</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 03:42:49</sys_created_on>
         <sys_id>28c85359931842106250fbf08bba1001</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>dcf857a6-eba8-4a72-b426-52afa4322c68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=28c85359931842106250fbf08bba1001"/>
@@ -702,10 +702,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:07:33</sys_created_on>
         <sys_id>85f2479193d442106250fbf08bba1085</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>92fb63d0-edae-4499-baae-2417324bf5b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85f2479193d442106250fbf08bba1085"/>
@@ -779,21 +779,180 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>9437aff593d002106250fbf08bba10f6</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
+        <ui_id>4b351957-41a8-4f84-a4f7-9e02972f9e86</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9437aff593d002106250fbf08bba10f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9437aff593d002106250fbf08bba10f6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>1037aff593d002106250fbf08bba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:02:50</sys_updated_on>
+        <value>#ff3254</value>
+        <variable display_value="Theme Color (Hex)">419862431324030039a039ed9344b003</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9437aff593d002106250fbf08bba10f6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>5c37aff593d002106250fbf08bba10f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:26</sys_updated_on>
+        <value>https://capgemini.webhook.office.com/webhookb2/59a08bf0-ab7f-43da-b6c9-08896466fccb@76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/IncomingWebhook/b303ad8959474c598851afa1a43fd75b/fed70339-4b58-4718-8d48-7ecea16beb72</value>
+        <variable display_value="Webhook URL">689822431324030039a039ed9344b088</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9437aff593d002106250fbf08bba10f6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>9437aff593d002106250fbf08bba10f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:26</sys_updated_on>
+        <value>Nova solicitação de crédito</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9437aff593d002106250fbf08bba10f6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:26</sys_created_on>
+        <sys_id>a7fae33d93d002106250fbf08bba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:26</sys_updated_on>
+        <value>Abrir solicitação</value>
+        <variable display_value="Action Name">859822431324030039a039ed9344b0f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9437aff593d002106250fbf08bba10f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_action_name</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:26</sys_created_on>
+        <sys_id>2bfae33d93d002106250fbf08bba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_action_url</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:26</sys_created_on>
+        <sys_id>effae33d93d002106250fbf08bba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>https://dev215234.service-now.com/x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank.do?sys_id={{Created_1.current.sys_id}}&amp;sysparm_record_target=x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank&amp;sysparm_record_row=6&amp;sysparm_record_rows=6&amp;sysparm_record_list=ORDERBYnumber</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>d437aff593d002106250fbf08bba10f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:29:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>Nova Solicitação de credito aberta:
+
+Solicitante:{{92fb63d0-edae-4499-baae-2417324bf5b8.nome.name}}
+
+Valor:{{92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito}}
+
+Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
+</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_theme_color_hex_</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>1437aff593d002106250fbf08bba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:02:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>9c37aff593d002106250fbf08bba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:02:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>9437aff593d002106250fbf08bba10f6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:02:50</sys_created_on>
+        <sys_id>5037aff593d002106250fbf08bba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:02:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9437aff593d002106250fbf08bba10f6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9437aff593d002106250fbf08bba10f6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>14</order>
+        <order>15</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>96d7cf9593d442106250fbf08bba101b</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>8a09cd1e-607f-4c32-a1f2-e58a00416308</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96d7cf9593d442106250fbf08bba101b"/>
@@ -872,16 +1031,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>15</order>
+        <order>16</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>96d7cf9593d442106250fbf08bba1023</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>0630c149-64d4-4e13-9418-9c24b68614af</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=96d7cf9593d442106250fbf08bba1023"/>
@@ -998,16 +1157,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:23</sys_created_on>
         <sys_id>a716075593d442106250fbf08bba10e3</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>c4585477-76a4-41a4-9ead-49731b97d5b3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a716075593d442106250fbf08bba10e3"/>
@@ -1086,16 +1245,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>d2d7cf9593d442106250fbf08bba100e</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>a783b88e-45f6-413d-92f9-eaea6c9ef8d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d2d7cf9593d442106250fbf08bba100e"/>
@@ -1212,16 +1371,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:22</sys_created_on>
         <sys_id>e316075593d442106250fbf08bba10c6</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>2b40eee7-344d-41f4-bcbf-abac6c068d9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e316075593d442106250fbf08bba10c6"/>
@@ -1370,10 +1529,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:22</sys_created_on>
         <sys_id>e716075593d442106250fbf08bba10bd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>b26b75a4-85ad-4e39-aec8-6b607adc54e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e716075593d442106250fbf08bba10bd"/>
@@ -1496,10 +1655,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:22</sys_created_on>
         <sys_id>ef16075593d442106250fbf08bba10b4</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:45:38</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:34:25</sys_updated_on>
         <ui_id>a4ff3493-4a02-4693-9204-db996422288f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef16075593d442106250fbf08bba10b4"/>
@@ -1585,7 +1744,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>12</order>
+        <order>13</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
@@ -1593,10 +1752,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>1ed7cf9593d442106250fbf08bba1011</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:07</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <ui_id>8e22b1bd-5a87-469e-bad4-3076846df04f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1618,7 +1777,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>13</order>
+        <order>14</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1626,10 +1785,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>96d7cf9593d442106250fbf08bba1014</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:07</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <ui_id>19cca311-739f-4329-83b8-4f9b051936b4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1689,7 +1848,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>16</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
@@ -1697,10 +1856,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:28:56</sys_created_on>
         <sys_id>ded7cf9593d442106250fbf08bba1026</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:07</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <ui_id>aebb3f12-93ee-49d2-b3ca-c5acecdbb4e5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1722,7 +1881,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1730,10 +1889,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:21:22</sys_created_on>
         <sys_id>eb16075593d442106250fbf08bba10ca</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
         <ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1911,7 +2070,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>fluxo_de_solicitao_de_crdito</internal_name>
-        <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1 - Get Catalog Variables➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"12x","image":"","reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"used":false,"label":"24x","image":"","reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"used":false,"label":"48x","image":"","reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.name","label":"1➛nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"12x","used":false,"reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"24x","used":false,"reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"48x","used":false,"reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
         <master>true</master>
         <name>Fluxo de solicitação de crédito</name>
         <natlang/>
@@ -1928,7 +2087,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81e743d593d442106250fbf08bba107f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1936,7 +2095,7 @@
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:22</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=81e743d593d442106250fbf08bba107f"/>
@@ -1951,10 +2110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:09</sys_created_on>
         <sys_id>5de783d593d442106250fbf08bba1055</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:06</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:25</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2067,14 +2226,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>09e743d593d442106250fbf08bba1081</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2150,14 +2309,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>49e743d593d442106250fbf08bba10ae</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2172,7 +2331,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=81e743d593d442106250fbf08bba107f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=81e743d593d442106250fbf08bba107f"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f^sys_idNOT IN05e783d593d442106250fbf08bba1010,0de783d593d442106250fbf08bba1005,0de783d593d442106250fbf08bba101a,19e783d593d442106250fbf08bba104a,41e783d593d442106250fbf08bba1022,55e783d593d442106250fbf08bba1043,5de783d593d442106250fbf08bba1034,99e783d593d442106250fbf08bba1052,bfc81759931842106250fbf08bba10e4,cde743d593d442106250fbf08bba10fd,d1e783d593d442106250fbf08bba102a,d1e783d593d442106250fbf08bba103b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f^sys_idNOT IN05e783d593d442106250fbf08bba1010,0de783d593d442106250fbf08bba1005,0de783d593d442106250fbf08bba101a,19e783d593d442106250fbf08bba104a,41e783d593d442106250fbf08bba1022,55e783d593d442106250fbf08bba1043,5de783d593d442106250fbf08bba1034,99e783d593d442106250fbf08bba1052,bfc81759931842106250fbf08bba10e4,cde743d593d442106250fbf08bba10fd,d1e783d593d442106250fbf08bba102a,d1e783d593d442106250fbf08bba103b,e047e33993d002106250fbf08bba10fa"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2187,10 +2346,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>05e783d593d442106250fbf08bba1010</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>b26b75a4-85ad-4e39-aec8-6b607adc54e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05e783d593d442106250fbf08bba1010"/>
@@ -2313,10 +2472,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>0de783d593d442106250fbf08bba1005</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>a4ff3493-4a02-4693-9204-db996422288f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0de783d593d442106250fbf08bba1005"/>
@@ -2395,16 +2554,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>0de783d593d442106250fbf08bba101a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>2b40eee7-344d-41f4-bcbf-abac6c068d9e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0de783d593d442106250fbf08bba101a"/>
@@ -2547,16 +2706,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>14</order>
+        <order>15</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>19e783d593d442106250fbf08bba104a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:22</sys_updated_on>
         <ui_id>8a09cd1e-607f-4c32-a1f2-e58a00416308</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19e783d593d442106250fbf08bba104a"/>
@@ -2635,16 +2794,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>41e783d593d442106250fbf08bba1022</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>401ef4e0-c617-4860-85c7-2396e051adc7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=41e783d593d442106250fbf08bba1022"/>
@@ -2723,16 +2882,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>10</order>
+        <order>11</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>55e783d593d442106250fbf08bba1043</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>a783b88e-45f6-413d-92f9-eaea6c9ef8d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55e783d593d442106250fbf08bba1043"/>
@@ -2849,16 +3008,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>8</order>
+        <order>9</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>5de783d593d442106250fbf08bba1034</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>c4585477-76a4-41a4-9ead-49731b97d5b3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5de783d593d442106250fbf08bba1034"/>
@@ -2937,16 +3096,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>15</order>
+        <order>16</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:09</sys_created_on>
         <sys_id>99e783d593d442106250fbf08bba1052</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:22</sys_updated_on>
         <ui_id>0630c149-64d4-4e13-9418-9c24b68614af</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99e783d593d442106250fbf08bba1052"/>
@@ -3063,16 +3222,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>11</order>
+        <order>12</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 03:43:03</sys_created_on>
         <sys_id>bfc81759931842106250fbf08bba10e4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>dcf857a6-eba8-4a72-b426-52afa4322c68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bfc81759931842106250fbf08bba10e4"/>
@@ -3141,10 +3300,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>cde743d593d442106250fbf08bba10fd</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>92fb63d0-edae-4499-baae-2417324bf5b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cde743d593d442106250fbf08bba10fd"/>
@@ -3223,16 +3382,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>7</order>
+        <order>8</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>d1e783d593d442106250fbf08bba102a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>f3ad3bec-8f5b-4b29-b6ad-fca593a16140</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1e783d593d442106250fbf08bba102a"/>
@@ -3349,16 +3508,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>d1e783d593d442106250fbf08bba103b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>3077e2f6-c881-4ee3-b6d8-efc41c9f4a6a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1e783d593d442106250fbf08bba103b"/>
@@ -3429,6 +3588,165 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d1e783d593d442106250fbf08bba103b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d1e783d593d442106250fbf08bba103b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>e047e33993d002106250fbf08bba10fa</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
+        <ui_id>4b351957-41a8-4f84-a4f7-9e02972f9e86</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e047e33993d002106250fbf08bba10fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e047e33993d002106250fbf08bba10fa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>2847e33993d002106250fbf08bba10fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:43</sys_updated_on>
+        <value>https://capgemini.webhook.office.com/webhookb2/59a08bf0-ab7f-43da-b6c9-08896466fccb@76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61/IncomingWebhook/b303ad8959474c598851afa1a43fd75b/fed70339-4b58-4718-8d48-7ecea16beb72</value>
+        <variable display_value="Webhook URL">689822431324030039a039ed9344b088</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e047e33993d002106250fbf08bba10fa</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>6447e33993d002106250fbf08bba10fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:43</sys_updated_on>
+        <value>Nova solicitação de crédito</value>
+        <variable display_value="Title">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e047e33993d002106250fbf08bba10fa</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>e847e33993d002106250fbf08bba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:03:08</sys_updated_on>
+        <value>#ff3254</value>
+        <variable display_value="Theme Color (Hex)">419862431324030039a039ed9344b003</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e047e33993d002106250fbf08bba10fa</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:43</sys_created_on>
+        <sys_id>ef0be73d93d002106250fbf08bba109d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:43</sys_updated_on>
+        <value>Abrir solicitação</value>
+        <variable display_value="Action Name">859822431324030039a039ed9344b0f7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e047e33993d002106250fbf08bba10fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_action_name</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:43</sys_created_on>
+        <sys_id>e70be73d93d002106250fbf08bba109d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_action_url</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:19:43</sys_created_on>
+        <sys_id>a30be73d93d002106250fbf08bba109d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:19:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>https://dev215234.service-now.com/x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank.do?sys_id={{Created_1.current.sys_id}}&amp;sysparm_record_target=x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank&amp;sysparm_record_row=6&amp;sysparm_record_rows=6&amp;sysparm_record_list=ORDERBYnumber</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>a847e33993d002106250fbf08bba10fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:29:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>Nova Solicitação de credito aberta:
+
+Solicitante:{{92fb63d0-edae-4499-baae-2417324bf5b8.nome.name}}
+
+Valor:{{92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito}}
+
+Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
+</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_theme_color_hex_</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>e047e33993d002106250fbf08bba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:03:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>6c47e33993d002106250fbf08bba10fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:03:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>e047e33993d002106250fbf08bba10fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 18:03:08</sys_created_on>
+        <sys_id>2047e33993d002106250fbf08bba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 18:03:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e047e33993d002106250fbf08bba10fa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e047e33993d002106250fbf08bba10fa"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f^sys_idNOT IN05e743d593d442106250fbf08bba10c6,05e743d593d442106250fbf08bba10cd,4de743d593d442106250fbf08bba10d0,c5e743d593d442106250fbf08bba10ca"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -3445,7 +3763,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -3453,10 +3771,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>05e743d593d442106250fbf08bba10c6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:03</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3517,7 +3835,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>13</order>
+        <order>14</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -3525,10 +3843,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>05e743d593d442106250fbf08bba10cd</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:22</sys_updated_on>
         <ui_id>19cca311-739f-4329-83b8-4f9b051936b4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3588,7 +3906,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>16</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
@@ -3596,10 +3914,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:08</sys_created_on>
         <sys_id>4de743d593d442106250fbf08bba10d0</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:22</sys_updated_on>
         <ui_id>aebb3f12-93ee-49d2-b3ca-c5acecdbb4e5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3620,7 +3938,7 @@
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>12</order>
+        <order>13</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
@@ -3628,10 +3946,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>c5e743d593d442106250fbf08bba10ca</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 03:43:04</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:29:21</sys_updated_on>
         <ui_id>8e22b1bd-5a87-469e-bad4-3076846df04f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3769,17 +4087,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f1e783d593d442106250fbf08bba10ef","name":"plan","plan_signature":null}}</plan>
         <plan_id>fbb1835193d442106250fbf08bba1046</plan_id>
-        <snapshot>79695399931842106250fbf08bba10dc</snapshot>
+        <snapshot>7e6eab71931402106250fbf08bba1018</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 02:29:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1e783d593d442106250fbf08bba10ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-11 02:29:10</sys_updated_on>
+        <sys_updated_on>2024-02-12 18:28:29</sys_updated_on>
         <trigger display_value="">b1e783d593d442106250fbf08bba10ed</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fbb1835193d442106250fbf08bba1046"/>
