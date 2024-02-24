@@ -41,7 +41,7 @@
         <update_guid_history>eba47e91fe9442107fd69dd2633d921a:-74094132</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Departmental Services.Solicitar Crédito">78f4b2d1939442106250fbf08bba103b</sys_audit_delete>
+        <sys_audit_delete display_value="">78f4b2d1939442106250fbf08bba103b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 01:06:22</sys_created_on>

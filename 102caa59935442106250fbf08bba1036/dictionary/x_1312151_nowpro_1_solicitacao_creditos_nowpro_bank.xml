@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="43fce699935442106250fbf08bba10cb" extends="task" label="Solicitação Créditos NowPro Bank" max_length="40" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" type="collection">
+    <element audit="true" db_object_id="43fce699935442106250fbf08bba10cb" extends="task" label="Solicitação Créditos NowPro Bank" max_length="40" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" text_index="true" type="collection">
         <element label="Agência" max_length="20" name="agencia" type="string"/>
         <element label="Conta Corrente" max_length="20" name="conta_corrente" type="string"/>
         <element label="CPF" max_length="11" name="cpf" type="string"/>

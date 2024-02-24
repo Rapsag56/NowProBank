@@ -4,11 +4,15 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>fluxo_de_solicitao_de_crdito</internal_name>
         <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.name","label":"1➛nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"12x","used":false,"reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"24x","used":false,"reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"48x","used":false,"reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
         <master_snapshot>81e743d593d442106250fbf08bba107f</master_snapshot>
@@ -29,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fbb1835193d442106250fbf08bba1046</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Fluxo de solicitação de crédito</sys_name>
         <sys_overrides/>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
@@ -37,7 +41,7 @@
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name>sys_hub_flow_fbb1835193d442106250fbf08bba1046</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-12 18:29:26</sys_updated_on>
+        <sys_updated_on>2024-02-24 03:01:21</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fbb1835193d442106250fbf08bba1046"/>
@@ -228,6 +232,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=70f2479193d442106250fbf08bba1076"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -311,6 +316,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=78f2479193d442106250fbf08bba107a"/>
     <sys_hub_flow_output action="delete_multiple" query="model=fbb1835193d442106250fbf08bba1046"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fbb1835193d442106250fbf08bba1046"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046^sys_idNOT IN1ed78f9593d442106250fbf08bba10f9,2316075593d442106250fbf08bba10d3,2316075593d442106250fbf08bba10db,28c85359931842106250fbf08bba1001,85f2479193d442106250fbf08bba1085,9437aff593d002106250fbf08bba10f6,96d7cf9593d442106250fbf08bba101b,96d7cf9593d442106250fbf08bba1023,a716075593d442106250fbf08bba10e3,d2d7cf9593d442106250fbf08bba100e,e316075593d442106250fbf08bba10c6,e716075593d442106250fbf08bba10bd,ef16075593d442106250fbf08bba10b4"/>
@@ -319,9 +325,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -407,9 +415,11 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -495,9 +505,11 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -621,9 +633,11 @@
         <action_inputs/>
         <action_type display_value="Insert Record Auditoria">c0565b95931842106250fbf08bba100c</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>12</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -693,9 +707,11 @@
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -781,9 +797,11 @@
         <action_inputs/>
         <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -940,9 +958,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>15</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1028,9 +1048,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1154,9 +1176,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1242,9 +1266,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1368,9 +1394,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1520,9 +1548,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1646,9 +1676,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1732,6 +1764,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=fbb1835193d442106250fbf08bba1046^sys_idNOT IN1ed7cf9593d442106250fbf08bba1011,96d7cf9593d442106250fbf08bba1014,ded7cf9593d442106250fbf08bba1026,eb16075593d442106250fbf08bba10ca"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">96d7cf9593d442106250fbf08bba1011</block>
         <comment/>
         <connected_to/>
@@ -1742,6 +1775,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>13</order>
@@ -1764,6 +1798,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1ed7cf9593d442106250fbf08bba1011"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1ed7cf9593d442106250fbf08bba1011"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">12d7cf9593d442106250fbf08bba1014</block>
         <comment/>
         <connected_to/>
@@ -1774,6 +1809,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1836,6 +1872,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=96d7cf9593d442106250fbf08bba1014"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=96d7cf9593d442106250fbf08bba1014"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">5ad7cf9593d442106250fbf08bba1026</block>
         <comment/>
         <connected_to/>
@@ -1846,6 +1883,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>17</order>
@@ -1868,6 +1906,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ded7cf9593d442106250fbf08bba1026"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ded7cf9593d442106250fbf08bba1026"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">2316075593d442106250fbf08bba10ca</block>
         <comment/>
         <connected_to/>
@@ -1878,6 +1917,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">fbb1835193d442106250fbf08bba1046</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2023,11 +2063,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <sys_created_on>2024-02-11 02:07:33</sys_created_on>
         <sys_id>7cf2479193d442106250fbf08bba107c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fbb1835193d442106250fbf08bba1046_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-11 02:07:33</sys_updated_on>
         <url/>
@@ -2046,11 +2086,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <sys_created_on>2024-02-11 02:07:33</sys_created_on>
         <sys_id>f8f2479193d442106250fbf08bba1079</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_fbb1835193d442106250fbf08bba1046_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-11 02:07:33</sys_updated_on>
         <url/>
@@ -2064,11 +2104,14 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>fluxo_de_solicitao_de_crdito</internal_name>
         <label_cache>[{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.name","label":"1➛nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.valor_do_credito","label":"1 - Get Catalog Variables➛valor_do_credito","reference":"","reference_display":"valor_do_credito","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas","label":"1 - Get Catalog Variables➛quantidade_de_parcelas","reference":"","reference_display":"quantidade_de_parcelas","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"12x","value":"12","order":100.0},{"label":"24x","value":"24","order":100.0},{"label":"48x","value":"48","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.sys_id","label":"1➛nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.quantidade_de_parcelas","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Quantidade de Parcelas","reference":"","reference_display":"Quantidade de Parcelas","type":"choice","base_type":"choice","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"quantidade_de_parcelas","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","label":"12x","used":false,"reference":false,"rawLabel":"12x","selected":false,"missing":false,"value":"12","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"24x","used":false,"reference":false,"rawLabel":"24x","selected":false,"missing":false,"value":"24","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}},{"image":"","label":"48x","used":false,"reference":false,"rawLabel":"48x","selected":false,"missing":false,"value":"48","parameters":{"name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank"}}]},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"currency","base_type":"currency","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"valor_do_credito"},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","column_name":"sys_id"},{"name":"2b40eee7-344d-41f4-bcbf-abac6c068d9e.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome.first_name","label":"1➛nome➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitação Créditos NowPro Bank Record","reference":"x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank","reference_display":"Solicitação Créditos NowPro Bank","type":"reference","base_type":"reference","attributes":{}},{"name":"92fb63d0-edae-4499-baae-2417324bf5b8.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}}]</label_cache>
         <master>true</master>
@@ -2246,6 +2289,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=09e743d593d442106250fbf08bba1081"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2329,6 +2373,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=49e743d593d442106250fbf08bba10ae"/>
     <sys_hub_flow_output action="delete_multiple" query="model=81e743d593d442106250fbf08bba107f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=81e743d593d442106250fbf08bba107f"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f^sys_idNOT IN05e783d593d442106250fbf08bba1010,0de783d593d442106250fbf08bba1005,0de783d593d442106250fbf08bba101a,19e783d593d442106250fbf08bba104a,41e783d593d442106250fbf08bba1022,55e783d593d442106250fbf08bba1043,5de783d593d442106250fbf08bba1034,99e783d593d442106250fbf08bba1052,bfc81759931842106250fbf08bba10e4,cde743d593d442106250fbf08bba10fd,d1e783d593d442106250fbf08bba102a,d1e783d593d442106250fbf08bba103b,e047e33993d002106250fbf08bba10fa"/>
@@ -2337,9 +2382,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2463,9 +2510,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2551,9 +2600,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2703,9 +2754,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>15</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2791,9 +2844,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -2879,9 +2934,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3005,9 +3062,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3093,9 +3152,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>16</order>
         <parent_ui_id>19cca311-739f-4329-83b8-4f9b051936b4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3219,9 +3280,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Insert Record Auditoria">c0565b95931842106250fbf08bba100c</action_type>
         <action_type_parent display_value="Insert Record Auditoria">a1b45b11931842106250fbf08bba1065</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>12</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3291,9 +3354,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3379,9 +3444,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3505,9 +3572,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>10</order>
         <parent_ui_id>d8bb1949-2bd0-4810-8f9f-971b71b21a95</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3593,9 +3662,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <action_inputs/>
         <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
         <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3750,6 +3821,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=81e743d593d442106250fbf08bba107f^sys_idNOT IN05e743d593d442106250fbf08bba10c6,05e743d593d442106250fbf08bba10cd,4de743d593d442106250fbf08bba10d0,c5e743d593d442106250fbf08bba10ca"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">2316075593d442106250fbf08bba10ca</block>
         <comment/>
         <connected_to/>
@@ -3760,6 +3832,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3822,6 +3895,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=05e743d593d442106250fbf08bba10c6"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=05e743d593d442106250fbf08bba10c6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">12d7cf9593d442106250fbf08bba1014</block>
         <comment/>
         <connected_to/>
@@ -3832,6 +3906,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3894,6 +3969,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=05e743d593d442106250fbf08bba10cd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=05e743d593d442106250fbf08bba10cd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">5ad7cf9593d442106250fbf08bba1026</block>
         <comment/>
         <connected_to/>
@@ -3904,6 +3980,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>17</order>
@@ -3926,6 +4003,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4de743d593d442106250fbf08bba10d0"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4de743d593d442106250fbf08bba10d0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">96d7cf9593d442106250fbf08bba1011</block>
         <comment/>
         <connected_to/>
@@ -3936,6 +4014,7 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <flow display_value="Fluxo de solicitação de crédito">81e743d593d442106250fbf08bba107f</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>13</order>
@@ -4041,11 +4120,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>41e743d593d442106250fbf08bba10ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_81e743d593d442106250fbf08bba107f_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-11 02:29:07</sys_updated_on>
         <url/>
@@ -4064,11 +4143,11 @@ Parcelas:{{92fb63d0-edae-4499-baae-2417324bf5b8.quantidade_de_parcelas}}
         <sys_created_on>2024-02-11 02:29:07</sys_created_on>
         <sys_id>81e743d593d442106250fbf08bba10b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_81e743d593d442106250fbf08bba107f_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-11 02:29:07</sys_updated_on>
         <url/>

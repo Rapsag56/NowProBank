@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4c417da197a08250d530f5b0f053af36" sys_domain="global" table="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" version="3" view="workspace-nowpro-bank-0">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-24 01:04:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c417da197a08250d530f5b0f053af36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+            <sys_update_name>sys_ui_section_4c417da197a08250d530f5b0f053af36</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-24 01:04:45</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace NowPro Bank 0" name="workspace-nowpro-bank-0">8a3179a109a0825051518416ef0129dd</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

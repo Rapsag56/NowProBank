@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="nowpro-bank Search Profile">4e3179a166a0825044378afd395a5be6</profile>
+        <search_source display_value="">a7313da197a08250d530f5b0f053af5e</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 01:04:43</sys_created_on>
+        <sys_id>23313da197a08250d530f5b0f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nowpro-bank Search Profile.Solicitação Créditos NowPro Bank</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_23313da197a08250d530f5b0f053af7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 01:04:43</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

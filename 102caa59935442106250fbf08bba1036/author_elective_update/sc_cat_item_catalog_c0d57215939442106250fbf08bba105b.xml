@@ -41,7 +41,7 @@
         <update_guid_history>04d5721558944210c1b90d3f7ddb2a5d:-1620809460</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Solicitar Crédito">b9f53615939442106250fbf08bba104f</sys_audit_delete>
+        <sys_audit_delete display_value="">b9f53615939442106250fbf08bba104f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-11 01:10:49</sys_created_on>

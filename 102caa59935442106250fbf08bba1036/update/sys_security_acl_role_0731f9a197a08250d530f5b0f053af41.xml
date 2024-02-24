@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-24 01:04:41</sys_created_on>
+        <sys_id>0731f9a197a08250d530f5b0f053af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1312151.nowpro-bank.*.x_1312151_nowpro_1.admin</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_security_acl display_value="x.1312151.nowpro-bank.*">4e3179a172a08250f353645f305840dd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0731f9a197a08250d530f5b0f053af41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-24 01:04:41</sys_updated_on>
+        <sys_user_role display_value="x_1312151_nowpro_1.admin" name="x_1312151_nowpro_1.admin">5c2caa59935442106250fbf08bba1049</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
