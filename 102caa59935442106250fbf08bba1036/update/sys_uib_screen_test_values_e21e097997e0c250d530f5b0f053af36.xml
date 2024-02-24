@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
-    "6a392db743c5211017b739603ab8f20c": {
+    "fdcde28377221110960ced43ba5a99e7": {
+        "ciClass": null,
+        "ciSysid": null,
+        "connectionId": null
+    },
+    "7cb6eb2e77321510960ced43ba5a9904": {},
+    "80c7ca40ffb92110f563bb63aad33ef3": {
         "inputData": null,
         "sortCategoriesArray": null
     },
-    "365c0e890767111017b703767cd3008e": {},
     "45a2efd50732111017b703767cd3008d": {
         "ciSysIds": null,
         "filteredArray": null
     }
 }</macroponent_config>
-        <screen display_value="Default">e2c1b5e197a08250d530f5b0f053af6f</screen>
+        <screen display_value="Default">6a1e097997e0c250d530f5b0f053af32</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-24 01:07:07</sys_created_on>
-        <sys_id>a6c1b9e197a08250d530f5b0f053afb8</sys_id>
+        <sys_created_on>2024-02-24 17:09:40</sys_created_on>
+        <sys_id>e21e097997e0c250d530f5b0f053af36</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_a6c1b9e197a08250d530f5b0f053afb8</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_e21e097997e0c250d530f5b0f053af36</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-24 19:42:25</sys_updated_on>
+        <sys_updated_on>2024-02-24 17:30:06</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
