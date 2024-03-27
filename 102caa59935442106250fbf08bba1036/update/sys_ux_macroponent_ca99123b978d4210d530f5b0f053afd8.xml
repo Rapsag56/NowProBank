@@ -193,7 +193,7 @@
                                 "apiVersion": "2.0.0",
                                 "controllerElementId": null,
                                 "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n\treturn '';\n  \n    color: white;\n\n}",
-                                "scriptSysId": "b8d7f4b99760c250d530f5b0f053af52",
+                                "scriptSysId": "9299927b978d4210d530f5b0f053af76",
                                 "target": null
                             },
                             "type": "CLIENT_TRANSFORM_SCRIPT"
@@ -315,7 +315,7 @@
                                             "type": "JSON_LITERAL",
                                             "value": {}
                                         },
-                                        "sysId": "1072b4b59760c250d530f5b0f053af54"
+                                        "sysId": "9299927b978d4210d530f5b0f053af72"
                                     },
                                     "conditional": null,
                                     "declarativeAction": null,
@@ -6494,7 +6494,7 @@
     "version": "3.0.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>Default</name>
+        <name>Default copy</name>
         <output_prop_mapping/>
         <props>[
     {
@@ -6674,16 +6674,16 @@
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-24 01:07:07</sys_created_on>
-        <sys_id>aac1b5e197a08250d530f5b0f053af6c</sys_id>
-        <sys_mod_count>96</sys_mod_count>
-        <sys_name>Default</sys_name>
+        <sys_created_on>2024-03-27 00:18:45</sys_created_on>
+        <sys_id>ca99123b978d4210d530f5b0f053afd8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default copy</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
-        <sys_update_name>sys_ux_macroponent_aac1b5e197a08250d530f5b0f053af6c</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_ca99123b978d4210d530f5b0f053afd8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-27 00:12:49</sys_updated_on>
+        <sys_updated_on>2024-03-27 00:18:47</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=aac1b5e197a08250d530f5b0f053af6c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca99123b978d4210d530f5b0f053afd8"/>
 </record_update>

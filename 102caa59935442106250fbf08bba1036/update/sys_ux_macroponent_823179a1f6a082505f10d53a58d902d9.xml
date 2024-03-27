@@ -622,98 +622,17 @@
                             "type": "template"
                         },
                         {
-                            "conditional": {
-                                "operation": {
-                                    "left": {
-                                        "operation": {
-                                            "left": {
-                                                "binding": {
-                                                    "address": [
-                                                        "record",
-                                                        "isNew"
-                                                    ]
-                                                },
-                                                "type": "DATA_OUTPUT_BINDING"
-                                            },
-                                            "operator": "OR",
-                                            "right": {
-                                                "operation": {
-                                                    "operand": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "record",
-                                                                "isAudited"
-                                                            ]
-                                                        },
-                                                        "type": "DATA_OUTPUT_BINDING"
-                                                    },
-                                                    "operator": "NOT"
-                                                },
-                                                "type": "UNARY"
-                                            }
-                                        },
-                                        "type": "BINARY"
-                                    },
-                                    "operator": "OR",
-                                    "right": {
-                                        "operation": {
-                                            "left": {
-                                                "operation": {
-                                                    "left": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "table"
-                                                            ],
-                                                            "category": "props"
-                                                        },
-                                                        "type": "CONTEXT_BINDING"
-                                                    },
-                                                    "operator": "EQUAL",
-                                                    "right": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "sys_history_line"
-                                                    }
-                                                },
-                                                "type": "BINARY"
-                                            },
-                                            "operator": "OR",
-                                            "right": {
-                                                "operation": {
-                                                    "left": {
-                                                        "binding": {
-                                                            "address": [
-                                                                "table"
-                                                            ],
-                                                            "category": "props"
-                                                        },
-                                                        "type": "CONTEXT_BINDING"
-                                                    },
-                                                    "operator": "EQUAL",
-                                                    "right": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "sys_history_set"
-                                                    }
-                                                },
-                                                "type": "BINARY"
-                                            }
-                                        },
-                                        "type": "BINARY"
-                                    }
-                                },
-                                "type": "BINARY"
-                            },
-                            "extensionPoint": null,
                             "icon": null,
-                            "id": "cldkt66wk02g93b7vaejgm12q",
+                            "id": "clu91q2890cz5357qsrwy0ads",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Record History"
+                                    "message": "PlayBooks"
                                 }
                             },
-                            "order": 300,
+                            "order": 400,
                             "type": "local"
                         }
                     ],
@@ -891,341 +810,17 @@
                                                         "items": [
                                                             
                                                         ],
-                                                        "preset": null,
+                                                        "preset": {
+                                                            "controllerElementId": "record",
+                                                            "disabledEventTargetIds": [
+                                                                
+                                                            ],
+                                                            "id": "187b98f917f400e17ab765dee8b4fb04"
+                                                        },
                                                         "propertyValues": {
-                                                            "config": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
                                                             "disableCollapse": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
-                                                            },
-                                                            "encodedRecord": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "fields": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": {
-                                                                    "caller_id": {
-                                                                        "declarativeUiActions": [
-                                                                            {
-                                                                                "actionAttributes": "",
-                                                                                "actionComponent": "",
-                                                                                "actionDispatch": "REFERENCE_INFO_CLICK",
-                                                                                "actionPayload": "",
-                                                                                "actionType": "uxf_client_action",
-                                                                                "assignmentId": "172e2043534310108135ddeeff7b12dd",
-                                                                                "conditions": "",
-                                                                                "confirmationMessage": "",
-                                                                                "confirmationRequired": false,
-                                                                                "dependency": "",
-                                                                                "group": "",
-                                                                                "groupBy": false,
-                                                                                "icon": "circle-info-outline",
-                                                                                "label": "Open Record",
-                                                                                "modelConditions": [
-                                                                                    {
-                                                                                        "field": "value",
-                                                                                        "newQuery": false,
-                                                                                        "operator": "ISNOTEMPTY",
-                                                                                        "or": false,
-                                                                                        "value": ""
-                                                                                    },
-                                                                                    {
-                                                                                        "field": null,
-                                                                                        "newQuery": false,
-                                                                                        "operator": "=",
-                                                                                        "or": false,
-                                                                                        "value": null
-                                                                                    }
-                                                                                ],
-                                                                                "name": "open_record",
-                                                                                "order": 0,
-                                                                                "payloadMap": [
-                                                                                    {
-                                                                                        "name": "referenceInfoClick@referencetable",
-                                                                                        "value": "{{referenceTable}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "referenceInfoClick@sys_id",
-                                                                                        "value": "{{value}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "referenceInfoClick@field",
-                                                                                        "value": "{{fieldName}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "referenceInfoClick@table",
-                                                                                        "value": "{{tableName}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "referenceInfoClick@name",
-                                                                                        "value": "{{name}}"
-                                                                                    }
-                                                                                ],
-                                                                                "requiresValue": true,
-                                                                                "tooltip": "Open Record"
-                                                                            },
-                                                                            {
-                                                                                "actionAttributes": "",
-                                                                                "actionComponent": "",
-                                                                                "actionDispatch": "REF_SEARCH_REQUESTED",
-                                                                                "actionPayload": "",
-                                                                                "actionType": "uxf_client_action",
-                                                                                "assignmentId": "c6542741ff13101035be517f793bf1bb",
-                                                                                "conditions": "",
-                                                                                "confirmationMessage": "",
-                                                                                "confirmationRequired": false,
-                                                                                "dependency": "",
-                                                                                "group": "",
-                                                                                "groupBy": false,
-                                                                                "icon": "magnifying-glass-outline",
-                                                                                "label": "Search For Record",
-                                                                                "modelConditions": [
-                                                                                    {
-                                                                                        "field": "readonly",
-                                                                                        "newQuery": false,
-                                                                                        "operator": "=",
-                                                                                        "or": false,
-                                                                                        "value": "false"
-                                                                                    },
-                                                                                    {
-                                                                                        "field": null,
-                                                                                        "newQuery": false,
-                                                                                        "operator": "=",
-                                                                                        "or": false,
-                                                                                        "value": null
-                                                                                    }
-                                                                                ],
-                                                                                "name": "ref_search",
-                                                                                "order": 0,
-                                                                                "payloadMap": [
-                                                                                    {
-                                                                                        "name": "parentSysId",
-                                                                                        "value": "{{recordSysId}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "encodedRecord",
-                                                                                        "value": "{{encodedRecord}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "referenceField",
-                                                                                        "value": "{{fieldName}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "fieldLabel",
-                                                                                        "value": "{{label}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "serializedChanges",
-                                                                                        "value": "{{serializedChanges}}"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "parentTable",
-                                                                                        "value": "{{tableName}}"
-                                                                                    }
-                                                                                ],
-                                                                                "requiresValue": false,
-                                                                                "tooltip": "Search for record"
-                                                                            }
-                                                                        ],
-                                                                        "dependent": "company",
-                                                                        "dependentField": "company",
-                                                                        "dependentOnField": "company",
-                                                                        "dependentTable": "core_company",
-                                                                        "dictionary": {
-                                                                            "attributes": [
-                                                                                {
-                                                                                    "name": "encode_utf8",
-                                                                                    "value": "false"
-                                                                                },
-                                                                                {
-                                                                                    "name": "ref_contributions",
-                                                                                    "value": "user_show_incidents"
-                                                                                }
-                                                                            ],
-                                                                            "canCreate": true,
-                                                                            "canRead": true,
-                                                                            "canWrite": true,
-                                                                            "dependentField": "company",
-                                                                            "dependentFieldLabel": "Company",
-                                                                            "dependentTable": "core_company",
-                                                                            "encryptionContext": "",
-                                                                            "fieldHint": "Personwhoreportedorisaffectedbythisincident",
-                                                                            "internalType": "reference",
-                                                                            "isEncrypted": false,
-                                                                            "isMandatory": false,
-                                                                            "label": "Caller",
-                                                                            "name": "caller_id",
-                                                                            "sys_readonly": false,
-                                                                            "type": "reference"
-                                                                        },
-                                                                        "displayValue": null,
-                                                                        "display_value_list": [
-                                                                            
-                                                                        ],
-                                                                        "internalType": "reference",
-                                                                        "isDynamicCreate": false,
-                                                                        "isReferenceScriptableTable": false,
-                                                                        "label": "Caller",
-                                                                        "mandatory": true,
-                                                                        "messages": [
-                                                                            
-                                                                        ],
-                                                                        "name": "caller_id",
-                                                                        "originalValue": "",
-                                                                        "readonly": false,
-                                                                        "refAcColumns": null,
-                                                                        "refAcColumnsSearch": false,
-                                                                        "refAcDisplayValue": false,
-                                                                        "refAcOrderBy": null,
-                                                                        "refAutoCompleter": null,
-                                                                        "refContributions": "user_show_incidents",
-                                                                        "refQualElements": null,
-                                                                        "reference": "sys_user",
-                                                                        "referenceError": null,
-                                                                        "referenceKey": null,
-                                                                        "referenceQualifier": null,
-                                                                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                                                                        "referringTable": "incident",
-                                                                        "sys_readonly": false,
-                                                                        "type": "reference",
-                                                                        "useReferenceQualifier": "simple",
-                                                                        "value": "",
-                                                                        "valuesList": [
-                                                                            
-                                                                        ],
-                                                                        "visible": true
-                                                                    },
-                                                                    "number": {
-                                                                        "defaultRows": null,
-                                                                        "dependentField": null,
-                                                                        "dependentTable": null,
-                                                                        "dictionary": {
-                                                                            "attributes": [
-                                                                                {
-                                                                                    "name": "edge_encryption_enabled",
-                                                                                    "value": "true"
-                                                                                },
-                                                                                {
-                                                                                    "name": "ignore_filter_on_new",
-                                                                                    "value": "true"
-                                                                                },
-                                                                                {
-                                                                                    "name": "ts_weight",
-                                                                                    "value": "50"
-                                                                                }
-                                                                            ],
-                                                                            "canCreate": true,
-                                                                            "canRead": true,
-                                                                            "canWrite": true,
-                                                                            "dependentField": null,
-                                                                            "dependentFieldLabel": null,
-                                                                            "dependentTable": null,
-                                                                            "encryptionContext": "",
-                                                                            "fieldHint": "",
-                                                                            "internalType": "string",
-                                                                            "isEncrypted": false,
-                                                                            "isMandatory": false,
-                                                                            "label": "Number",
-                                                                            "name": "number",
-                                                                            "sys_readonly": false,
-                                                                            "type": "string"
-                                                                        },
-                                                                        "displayValue": "EXAMPLE007",
-                                                                        "display_value_list": [
-                                                                            
-                                                                        ],
-                                                                        "encryptionContext": "",
-                                                                        "internalType": "string",
-                                                                        "isEncrypted": false,
-                                                                        "label": "Number",
-                                                                        "mandatory": false,
-                                                                        "maxLength": 40,
-                                                                        "name": "number",
-                                                                        "originalValue": "INC0010059",
-                                                                        "readonly": false,
-                                                                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                                                                        "referringTable": "incident",
-                                                                        "sys_readonly": false,
-                                                                        "type": "string",
-                                                                        "value": "EXAMPLE007",
-                                                                        "valuesList": [
-                                                                            
-                                                                        ],
-                                                                        "visible": true
-                                                                    },
-                                                                    "short_description": {
-                                                                        "defaultRows": null,
-                                                                        "dependentField": null,
-                                                                        "dependentTable": null,
-                                                                        "dictionary": {
-                                                                            "attributes": [
-                                                                                {
-                                                                                    "name": "edge_encryption_enabled",
-                                                                                    "value": "true"
-                                                                                },
-                                                                                {
-                                                                                    "name": "knowledge_search",
-                                                                                    "value": "true"
-                                                                                },
-                                                                                {
-                                                                                    "name": "no_truncate",
-                                                                                    "value": "true"
-                                                                                },
-                                                                                {
-                                                                                    "name": "ts_weight",
-                                                                                    "value": "10"
-                                                                                }
-                                                                            ],
-                                                                            "canCreate": true,
-                                                                            "canRead": true,
-                                                                            "canWrite": true,
-                                                                            "dependentField": null,
-                                                                            "dependentFieldLabel": null,
-                                                                            "dependentTable": null,
-                                                                            "encryptionContext": "",
-                                                                            "fieldHint": "",
-                                                                            "internalType": "string",
-                                                                            "isEncrypted": false,
-                                                                            "isMandatory": false,
-                                                                            "label": "Short Description",
-                                                                            "name": "short_description",
-                                                                            "sys_readonly": false,
-                                                                            "type": "string"
-                                                                        },
-                                                                        "displayValue": null,
-                                                                        "display_value_list": [
-                                                                            
-                                                                        ],
-                                                                        "encryptionContext": "",
-                                                                        "internalType": "string",
-                                                                        "isEncrypted": false,
-                                                                        "label": "Short Description",
-                                                                        "mandatory": true,
-                                                                        "maxLength": 160,
-                                                                        "name": "short_description",
-                                                                        "originalValue": "",
-                                                                        "readonly": false,
-                                                                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                                                                        "referringTable": "incident",
-                                                                        "sys_readonly": false,
-                                                                        "type": "string",
-                                                                        "value": "",
-                                                                        "valuesList": [
-                                                                            
-                                                                        ],
-                                                                        "visible": true
-                                                                    }
-                                                                }
-                                                            },
-                                                            "formMessages": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": [
-                                                                    
-                                                                ]
                                                             },
                                                             "inRecordPageTab": {
                                                                 "type": "JSON_LITERAL",
@@ -1267,10 +862,6 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
                                                             },
-                                                            "relatedLists": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": ""
-                                                            },
                                                             "scrollableHost": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": null
@@ -1278,95 +869,6 @@
                                                             "sectionHeadingLevel": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "2"
-                                                            },
-                                                            "sections": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": [
-                                                                    {
-                                                                        "caption": "example",
-                                                                        "captionDisplay": "Example Section",
-                                                                        "defaultSection": false,
-                                                                        "deferHeadingAndIcon": true,
-                                                                        "expanded": true,
-                                                                        "id": 0,
-                                                                        "label": "Example Section",
-                                                                        "rows": [
-                                                                            [
-                                                                                {
-                                                                                    "fields": [
-                                                                                        "number",
-                                                                                        "caller_id",
-                                                                                        "category",
-                                                                                        "subcategory",
-                                                                                        "business_service",
-                                                                                        "service_offering",
-                                                                                        "cmdb_ci",
-                                                                                        "universal_request",
-                                                                                        "route_reason"
-                                                                                    ]
-                                                                                },
-                                                                                {
-                                                                                    "fields": [
-                                                                                        "contact_type",
-                                                                                        "state",
-                                                                                        "hold_reason",
-                                                                                        "impact",
-                                                                                        "urgency",
-                                                                                        "priority",
-                                                                                        "assignment_group",
-                                                                                        "assigned_to"
-                                                                                    ]
-                                                                                }
-                                                                            ],
-                                                                            [
-                                                                                {
-                                                                                    "fields": [
-                                                                                        "short_description",
-                                                                                        "description"
-                                                                                    ]
-                                                                                }
-                                                                            ]
-                                                                        ],
-                                                                        "sysId": "bf1d96e3c0a801640190725e63f8ac80"
-                                                                    }
-                                                                ]
-                                                            },
-                                                            "serializedChanges": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": [
-                                                                    
-                                                                ]
-                                                            },
-                                                            "sysId": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "record",
-                                                                        "sysId"
-                                                                    ]
-                                                                },
-                                                                "type": "DATA_OUTPUT_BINDING"
-                                                            },
-                                                            "table": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "record",
-                                                                        "table"
-                                                                    ]
-                                                                },
-                                                                "type": "DATA_OUTPUT_BINDING"
-                                                            },
-                                                            "userSession": {
-                                                                "binding": {
-                                                                    "address": [
-                                                                        "user"
-                                                                    ],
-                                                                    "category": "session"
-                                                                },
-                                                                "type": "CONTEXT_BINDING"
-                                                            },
-                                                            "view": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
                                                             }
                                                         },
                                                         "slot": "left",
@@ -2150,185 +1652,99 @@
                                 "styles": {}
                             },
                             {
-                                "conditionals": null,
                                 "definition": {
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "cldktggggxiiaaccgaddbhhvaaqsxhsgo",
-                                "elementLabel": "Record History",
+                                "elementId": "clujjbbqcciilaaczggddffhhqfsltbqcdd",
+                                "elementLabel": "PlayBooks",
                                 "eventMappings": [
                                     
                                 ],
-                                "extensionPoints": [
-                                    
-                                ],
-                                "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "isNonDestructive": false,
-                                "items": [
-                                    
-                                ],
+                                "name": "PlayBooks",
                                 "overrides": {
                                     "composition": [
                                         {
-                                            "conditionals": null,
                                             "definition": {
-                                                "id": "3e6ce775e9b2140536acf1276b4d20bc",
+                                                "id": "ed99051389038d7a6d57069eecc5a122",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "record_history_related_list",
-                                            "elementLabel": "Record History Related List",
+                                            "elementId": "playbook_1",
+                                            "elementLabel": "Playbook 1",
                                             "eventMappings": [
                                                 
                                             ],
-                                            "extensionPoints": [
-                                                
-                                            ],
-                                            "isHero": false,
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
-                                            "isNonDestructive": false,
-                                            "items": [
-                                                
-                                            ],
-                                            "preset": {
-                                                "controllerElementId": "record",
-                                                "disabledEventTargetIds": [
-                                                    
-                                                ],
-                                                "id": "a93554759c571d193bbe0083f3e1dd8d"
-                                            },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "actionConfigId": {
+                                                "activityView": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": ""
+                                                    "value": "stacked"
                                                 },
-                                                "columns": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "groupByField": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "hideCheckboxHover": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnGrouping": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnReorder": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnResizing": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideDeclarativeActions": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideDotwalk": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideHighlightContent": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideHighlightedValues": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideInlineEditing": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideLinks": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideNextPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelAdvanced": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelConditionDelete": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelFooter": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelRestore": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePersonalization": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePreviousPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideSelectAll": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideUnnecessaryRowSelectors": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "highlightContent": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": {
-                                                        "color": "",
-                                                        "patterns": [
-                                                            
-                                                        ]
-                                                    }
-                                                },
-                                                "highlightedValueConfigId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "limit": {
+                                                "compactMode": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "maxCharLimit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": 4000
-                                                },
-                                                "maxColumns": {
+                                                "daClientActionContract": {
                                                     "type": "JSON_LITERAL",
                                                     "value": null
                                                 },
-                                                "overrideWordWrapUserPref": {
+                                                "enableFullWidthCards": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
                                                 },
-                                                "view": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "Default"
+                                                "parentSysId": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "sysId"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
                                                 },
-                                                "wordWrap": {
+                                                "parentTable": {
+                                                    "binding": {
+                                                        "address": [
+                                                            "table"
+                                                        ],
+                                                        "category": "props"
+                                                    },
+                                                    "type": "CONTEXT_BINDING"
+                                                },
+                                                "playbookExperienceId": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": false
+                                                    "value": "98e09a560f2200102920c912d4767e1a"
+                                                },
+                                                "recordGeneratorQuery": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedActivityContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "selectedLaneContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "selectedPlaybookContextId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "userId": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "userSession": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -2338,22 +1754,26 @@
                                     "layout": {
                                         "default": {
                                             "children": null,
-                                            "isInline": null,
                                             "items": [
                                                 {
-                                                    "element_id": "record_history_related_list",
+                                                    "element_id": "playbook_1",
                                                     "styles": {}
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
-                                                "display": "flex",
-                                                "flex-direction": "row",
-                                                "height": "100%"
+                                                "display": "grid",
+                                                "grid-auto-columns": "1fr",
+                                                "grid-auto-flow": "column",
+                                                "grid-auto-rows": "1fr",
+                                                "grid-template-columns": "1fr",
+                                                "grid-template-rows": "1fr",
+                                                "min-height": "600px",
+                                                "width": "100%"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "flex"
+                                            "type": "grid"
                                         },
                                         "version": "3.0.0"
                                     }
@@ -2384,17 +1804,17 @@
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
                                     "type": {
                                         "type": "JSON_LITERAL",
                                         "value": "section"
                                     }
                                 },
-                                "slot": "cldkt66wk02g93b7vaejgm12q",
-                                "styles": {
-                                    "height": "100%",
-                                    "overflow": "hidden",
-                                    "width": "100%"
-                                }
+                                "slot": "clu91q2890cz5357qsrwy0ads",
+                                "styles": null
                             }
                         ],
                         "layout": null
@@ -2402,23 +1822,17 @@
                     "preset": null,
                     "propertyValues": {
                         "activeRoute": {
-                            "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
-                            },
-                            "extensionPoint": null,
-                            "icon": "",
-                            "id": "cl1kajg2y015e3f71kyb7f5qr",
+                            "icon": null,
+                            "id": "clu91q2890cz5357qsrwy0ads",
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
                                 "value": {
                                     "code": null,
                                     "comment": "",
-                                    "message": "Details"
+                                    "message": "PlayBooks"
                                 }
                             },
-                            "order": 0,
-                            "routeType": "cl1kajg2y015e3f71kyb7f5qr",
+                            "order": 400,
                             "type": "local"
                         },
                         "defaultRoute": null,
@@ -3277,6 +2691,60 @@
                     "comment": "",
                     "message": "Top pane"
                 }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "15fe506403f8a98575b6df59008ea8f1",
+            "type": "MACROPONENT"
+        },
+        "elementId": "image_1",
+        "elementLabel": "Image 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "alt": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "fit": {
+                "type": "JSON_LITERAL",
+                "value": "fill"
+            },
+            "height": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "position": {
+                "type": "JSON_LITERAL",
+                "value": "center center"
+            },
+            "sources": {
+                "type": "JSON_LITERAL",
+                "value": [
+                    
+                ]
+            },
+            "src": {
+                "type": "JSON_LITERAL",
+                "value": "x_1312151_nowpro_1.banner now bank.png"
+            },
+            "width": {
+                "type": "JSON_LITERAL",
+                "value": null
             }
         },
         "slot": null,
@@ -5519,6 +4987,90 @@
         },
         "preset": null,
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "0c3568c75bee0110d78e9e7fb681c784",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "gform": "record"
+        },
+        "elementId": "ui_controller_record_page_1",
+        "elementLabel": "UI Controller Record Page 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "extraParams": {
+                "binding": {
+                    "address": [
+                        "extraParams"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "fields": {
+                "binding": {
+                    "address": [
+                        "fields"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "screen": {
+                "binding": {
+                    "address": [
+                        "screen"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "selectedTabIndex": {
+                "binding": {
+                    "address": [
+                        "selectedTabIndex"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "userPrefs": {
+                "binding": {
+                    "address": [
+                        "userPrefs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "views": {
+                "binding": {
+                    "address": [
+                        "views"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -5573,6 +5125,10 @@
         "children": null,
         "isInline": null,
         "items": [
+            {
+                "element_id": "image_1",
+                "styles": {}
+            },
             {
                 "element_id": "top_container",
                 "styles": {
@@ -5751,9 +5307,6 @@
   "message" : "Bottom pane",
   "comment" : ""
 }, {
-  "message" : "Caller",
-  "comment" : ""
-}, {
   "message" : "Cancel",
   "comment" : ""
 }, {
@@ -5775,22 +5328,13 @@
   "message" : "Editable record form only",
   "comment" : ""
 }, {
-  "message" : "Example Section",
-  "comment" : ""
-}, {
   "message" : "Left pane",
   "comment" : ""
 }, {
   "message" : "List of record activities and input fields for posting work notes or comments",
   "comment" : ""
 }, {
-  "message" : "Number",
-  "comment" : ""
-}, {
-  "message" : "Open Record",
-  "comment" : ""
-}, {
-  "message" : "Record History",
+  "message" : "PlayBooks",
   "comment" : ""
 }, {
   "message" : "Record not found",
@@ -5805,13 +5349,7 @@
   "message" : "Right pane",
   "comment" : ""
 }, {
-  "message" : "Search For Record",
-  "comment" : ""
-}, {
   "message" : "Security constraints prevent access to requested page",
-  "comment" : ""
-}, {
-  "message" : "Short Description",
   "comment" : ""
 }, {
   "message" : "Template",
@@ -5836,14 +5374,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-24 01:04:38</sys_created_on>
         <sys_id>823179a1f6a082505f10d53a58d902d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
         <sys_update_name>sys_ux_macroponent_823179a1f6a082505f10d53a58d902d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-24 21:09:48</sys_updated_on>
+        <sys_updated_on>2024-03-27 02:04:19</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=823179a1f6a082505f10d53a58d902d9"/>
 </record_update>

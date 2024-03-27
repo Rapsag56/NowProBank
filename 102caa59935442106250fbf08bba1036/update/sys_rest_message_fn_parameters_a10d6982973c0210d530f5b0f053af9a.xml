@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>cep</name>
+        <rest_message_function display_value="Default GET">0bfcad0e97f80210d530f5b0f053af56</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-09 00:19:57</sys_created_on>
+        <sys_id>a10d6982973c0210d530f5b0f053af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cep</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_a10d6982973c0210d530f5b0f053af9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-09 00:19:57</sys_updated_on>
+        <type>string</type>
+        <value>26193325</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

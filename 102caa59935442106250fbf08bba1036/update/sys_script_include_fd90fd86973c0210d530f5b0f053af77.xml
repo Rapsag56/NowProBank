@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1312151_nowpro_1.aula9</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>aula9</name>
+        <script><![CDATA[var aula9 = Class.create();
+aula9.prototype = {
+    initialize: function() {},
+
+    apiaula9: function() {
+
+        var obterChuckNorris = new sn_ws.RESTMessageV2();
+        obterChuckNorris.setEndpoint("https://api.chucknorris.io/jokes/random");
+        obterChuckNorris.setHttpMethod("GET");
+
+        var response = obterChuckNorris.execute();
+        var body = response.getBody();
+
+        body = JSON.parse(body);
+        gs.info("Informações ChuckNorris: " + body.value);
+
+    },
+
+    infoCep: function() {
+
+        var pegaCep = new sn_ws.RESTMessageV2('x_1312151_nowpro_1.ApiViaCep', 'Default GET');
+        pegaCep.setStringParameterNoEscape('cep', '26193325');
+
+
+        var response = pegaCep.execute();
+        var responseBody = response.getBody();
+
+        responseBody = JSON.parse(responseBody);
+
+        var httpStatus = response.getStatusCode();
+        gs.info(responseBody.bairro);
+
+    },
+
+
+    type: 'aula9'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-09 00:41:26</sys_created_on>
+        <sys_id>fd90fd86973c0210d530f5b0f053af77</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>aula9</sys_name>
+        <sys_package display_value="NowPro Bank" source="x_1312151_nowpro_1">102caa59935442106250fbf08bba1036</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NowPro Bank">102caa59935442106250fbf08bba1036</sys_scope>
+        <sys_update_name>sys_script_include_fd90fd86973c0210d530f5b0f053af77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-09 01:06:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

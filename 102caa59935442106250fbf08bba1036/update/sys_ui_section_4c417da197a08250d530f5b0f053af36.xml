@@ -1,5 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="4c417da197a08250d530f5b0f053af36" sys_domain="global" table="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" version="3" view="workspace-nowpro-bank-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3227c3bb97c18210d530f5b0f053af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cpf</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sexo</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telefone</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>valor_do_credito</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rg</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conta_corrente</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endereco</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agencia</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantidade_de_parcelas</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3e27c3bb97c18210d530f5b0f053af7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 03:37:52</sys_created_on>
+            <sys_id>3627c3bb97c18210d530f5b0f053af80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1312151_nowpro_1_solicitacao_creditos_nowpro_bank" sys_domain="global" view="8a3179a109a0825051518416ef0129dd">4c417da197a08250d530f5b0f053af36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 03:37:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
